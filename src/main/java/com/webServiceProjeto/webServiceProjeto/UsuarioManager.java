@@ -1,6 +1,8 @@
 package com.webServiceProjeto.webServiceProjeto;
 import java.util.*;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UsuarioManager {
     private List<Usuario> usuarios;
     private final UsuarioRepository usuarioRepository;
